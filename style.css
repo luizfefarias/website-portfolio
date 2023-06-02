@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #111111;
+}
+
+.logo {
+    font-size: 2em;
+    color: grey;
+    cursor: default;
+}
+
+.menu-cabecalho {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+    color: grey;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.menu-cabecalho a {
+    color: white;
+    margin: 0 10px; 
+}
+
+.menu-cabecalho a:hover {
+    color: purple;
+}
+
+body {
+    background-color: black;
+}
+.home-container {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.home-background {
+    flex: 1;
+    object-fit: contain; 
+    width: 50%; 
+    border: 2px solid #111111; 
+    border-radius: 0px;
+    background: #111111;
+}
+
+.home {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #111111, transparent);
+}
+
+.content {
+    max-width: 500px;
+    color: whitesmoke;
+}
+
+.content h2 {
+    font-size: 3em;
+}
+
+.content h2 span {
+    color: grey;
+}
+
+.content h4 {
+    font-size: 2em;
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+}
+
+.bts-grupo a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: gray;
+    border-radius: 10px;
+    border: 2px solid grey;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.bts-grupo a:hover {
+    color: black;
+    background: whitesmoke;
+}
+.materia {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke
+}
+
+.materia h3 {
+    color: grey;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.materia #materia1, .materia #materia2 {
+    width: 45%;
+}
+
+.image-materia {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
